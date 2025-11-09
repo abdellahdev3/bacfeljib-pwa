@@ -34,7 +34,7 @@ export default {
     // OneSignal is only available if you are using cloudflare workers
     oneSignalEnabled: false, // To enable OneSignal, set this to true
     oneSignalConfig: {
-      appId: '********-****-****-****-************', // Replace with your OneSignal App Id
+      appId: 'd9dd4395-8656-4f28-a0ef-e38f554b1c42', // Replace with your OneSignal App Id
       allowLocalhostAsSecureOrigin: true,
     },
   },
