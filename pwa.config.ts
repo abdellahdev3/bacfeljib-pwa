@@ -1,12 +1,12 @@
 import type { Config } from './types';
 
 export default {
-  id: '/',
+  id: 'com.bac.feljib.dz.education',
   name: 'My Blog',
   shortName: 'My Blog',
   description: 'My blog description goes here...',
   direction: 'auto',
-  language: 'en-US',
+  language: 'ar-DZ',
   backgroundColor: '#fff',
   themeColor: '#fff',
   display: 'standalone',
