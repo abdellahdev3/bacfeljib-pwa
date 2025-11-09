@@ -20,8 +20,8 @@ export default {
   relatedApplications: [
     {
       platform: 'play',
-      url: 'https://play.google.com/store/apps/details?id=com.bacfeljib.app',
-      id: 'com.bacfeljib.app',
+      url: 'https://play.google.com/store/apps/details?id=com.bac.feljib.dz.education',
+      id: 'com.bac.feljib.dz.education',
     },
   ],
 
