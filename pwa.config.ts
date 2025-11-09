@@ -4,40 +4,50 @@ export default {
   id: 'com.bac.feljib.dz.education',
   name: 'Bac Feljib',
   shortName: 'Bac Feljib',
-  description: 'My blog description goes here...',
-  direction: 'auto',
+  description: 'منصة تعليمية جزائرية لطلاب البكالوريا: دروس، ملخصات، تمارين وحساب المعدل.',
+  direction: 'rtl',
   language: 'ar-DZ',
-  backgroundColor: '#fff',
-  themeColor: '#fff',
+  backgroundColor: '#f8fafc',
+  themeColor: '#2447c7',
   display: 'standalone',
   orientation: 'natural',
   scope: '/',
   startUrl: '/?utm_source=homescreen',
   appleStatusBarStyle: 'black-translucent',
-  preferRelatedApplications: false,
-  shortcuts: [
+
+  // ✅ فعّل التفضيل للتطبيق الأصلي
+  preferRelatedApplications: true,
+  relatedApplications: [
     {
-      name: 'Shortcut 1',
-      shortName: 'Shortcut 1',
-      description: 'Shortcut 1 description goes here...',
-      url: '/search/label/shortcut-1?utm_source=homescreen',
-    },
-    {
-      name: 'Shortcut 2',
-      shortName: 'Shortcut 2',
-      description: 'Shortcut 2 description goes here...',
-      url: '/search/label/shortcut-2?utm_source=homescreen',
+      platform: 'play',
+      url: 'https://play.google.com/store/apps/details?id=com.bacfeljib.app',
+      id: 'com.bacfeljib.app',
     },
   ],
+
+  shortcuts: [
+    {
+      name: 'الدروس',
+      shortName: 'دروس',
+      description: 'دروس وملخصات البكالوريا',
+      url: '/search/label/الدروس?utm_source=homescreen',
+    },
+    {
+      name: 'التمارين',
+      shortName: 'تمارين',
+      description: 'تمارين محلولة للبكالوريا',
+      url: '/search/label/تمارين?utm_source=homescreen',
+    },
+  ],
+
   pwa: {
     logs: true,
-    // OneSignal is only available if you are using cloudflare workers
-    oneSignalEnabled: false, // To enable OneSignal, set this to true
+    oneSignalEnabled: false,
     oneSignalConfig: {
-      appId: 'd9dd4395-8656-4f28-a0ef-e38f554b1c42', // Replace with your OneSignal App Id
+      appId: 'd9dd4395-8656-4f28-a0ef-e38f554b1c42',
       allowLocalhostAsSecureOrigin: true,
     },
   },
-  // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://hello-example.blogspot.com',
+
+  origin: 'https://www.bac-feljib.com',
 } satisfies Config;
