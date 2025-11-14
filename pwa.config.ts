@@ -16,7 +16,15 @@ export default {
   appleStatusBarStyle: 'black-translucent',
 
   // ✅ فعّل التفضيل للتطبيق الأصلي
- preferRelatedApplications: false,
+  preferRelatedApplications: true,
+  relatedApplications: [
+    {
+      platform: 'play',
+      url: 'https://play.google.com/store/apps/details?id=com.bac.feljib.dz.education',
+      id: 'com.bac.feljib.dz.education',
+    },
+  ],
+
   shortcuts: [
     {
       name: 'الدروس',
