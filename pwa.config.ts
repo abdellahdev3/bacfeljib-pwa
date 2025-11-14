@@ -30,13 +30,19 @@ export default {
       name: 'الدروس',
       shortName: 'دروس',
       description: 'دروس وملخصات البكالوريا',
-      url: '/search/label/الدروس?utm_source=homescreen',
+      url: '/p/lessons-and-summaries-bac?utm_source=homescreen',
     },
     {
       name: 'التمارين',
       shortName: 'تمارين',
       description: 'تمارين محلولة للبكالوريا',
-      url: '/search/label/تمارين?utm_source=homescreen',
+      url: '/p/exercises-with-solution-bac?utm_source=homescreen',
+    },
+    {
+      name: 'العد التنازلي للبكالوريا',
+      shortName: 'العد التنازلي للبكالوريا',
+      description: 'العد التنازلي للبكالوريا',
+      url: '/p/bac-exam-countdown?utm_source=homescreen',
     },
   ],
 
