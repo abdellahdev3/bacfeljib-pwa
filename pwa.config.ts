@@ -16,9 +16,7 @@ export default {
   appleStatusBarStyle: 'black-translucent',
 
   // ✅ فعّل التفضيل للتطبيق الأصلي
-  preferRelatedApplications: false,
-  
-
+ preferRelatedApplications: false,
   shortcuts: [
     {
       name: 'الدروس',
