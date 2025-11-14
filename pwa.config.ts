@@ -16,7 +16,7 @@ export default {
   appleStatusBarStyle: 'black-translucent',
 
   // ✅ فعّل التفضيل للتطبيق الأصلي
-  preferRelatedApplications: true,
+  preferRelatedApplications: false,
   relatedApplications: [
     {
       platform: 'play',
